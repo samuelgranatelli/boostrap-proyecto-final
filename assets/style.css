@@ -1,13 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
-#carouseldiv {
+
+
+.card-img-top {
     width: 100%;
+    height: 40vh;
+    object-fit: cover;
+   
 }
-
-#carouseldiv img {
-    width: 400px;
-    height: 400px;
-}
-
 .footerimg {
     height: 50px;
     width: 50px;
@@ -17,8 +20,10 @@
 
 .a__estilo{
     text-decoration: none;
-}
+    font-size: 20px;
+    font-weight: bold;
 
+}
 
 .navbar {
     justify-content: flex-start;
@@ -50,4 +55,24 @@ footer {
 
 footer p {
     color: aliceblue;
+}
+
+h1, h2 , h3 , h4 , h5 {
+    font-family: 'Bangers', cursive;
+}
+
+
+h3 a {
+    text-decoration: none;
+}
+
+
+a, p { 
+    font-family: 'Indie Flower', cursive;
+}
+
+/* PRODUCTOS */ 
+
+#navproductos {
+    background-color: #f6caca;
 }
