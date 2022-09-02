@@ -1,0 +1,53 @@
+
+#carouseldiv {
+    width: 100%;
+}
+
+#carouseldiv img {
+    width: 400px;
+    height: 400px;
+}
+
+.footerimg {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.a__estilo{
+    text-decoration: none;
+}
+
+
+.navbar {
+    justify-content: flex-start;
+}
+
+header {
+    background-color: #fae8eb;
+}
+
+main {
+    background-color: #f6caca;
+}
+
+.cardcolor {
+    background-color: #cd9fcc;
+}
+
+.cardcolor img {
+    width: 100%;
+}
+
+.card {
+    background-color: #cd9fcc;
+}
+
+footer {
+    background-color: #0a014f;
+}
+
+footer p {
+    color: aliceblue;
+}
