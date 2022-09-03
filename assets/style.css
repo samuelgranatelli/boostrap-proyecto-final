@@ -6,7 +6,7 @@
 
 
 .card-img-top {
-    width: 100%;
+    max-width: 100%;
     height: 40vh;
     object-fit: cover;
    
@@ -35,6 +35,15 @@ header {
 
 main {
     background-color: #f6caca;
+}
+
+#carouseldiv {
+    height: 60vh;
+}
+
+#carouseldiv img {
+    height: 100%;
+    width: 100%;
 }
 
 .cardcolor {
