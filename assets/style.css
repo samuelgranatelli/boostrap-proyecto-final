@@ -1,16 +1,18 @@
-
-
-
 .card-img-top {
     max-width: 100%;
     height: 40vh;
     object-fit: cover;
-   
+
 }
 
 #navcolor {
     background-color: #fae8eb;
     color: #fae8eb;
+}
+
+#navcolor a:hover {
+    
+    box-shadow: -4px 3px 37px 10px #EFA5CE;
 }
 
 .footerimg {
@@ -20,7 +22,7 @@
 
 
 
-.a__estilo{
+.a__estilo {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -46,17 +48,15 @@ main {
     width: 100%;
 }
 
-.cardcolor {
-    background-color: #cd9fcc;
+.card {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .cardcolor img {
     width: 100%;
 }
 
-.card {
-    background-color: #cd9fcc;
-}
 
 footer {
     background-color: #0a014f;
@@ -67,7 +67,11 @@ footer p {
 }
 
 
-h1, h2 , h3 , h4 , h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
 }
 
@@ -77,13 +81,26 @@ h3 a {
 }
 
 
-a, p { 
+a,
+p {
     font-family: 'Indie Flower', cursive;
 }
 
-/* PRODUCTOS */ 
+
+@media (max-width: 1100px) {
+    #centrarproducto {
+        display: inline;
+    }
+}
+
+/* PRODUCTOS */
 
 
 
-/* Puntos de encuentro */ 
+/* Puntos de encuentro */
+           
 
+         
+
+
+ 
