@@ -94,8 +94,9 @@ p {
 }
 
 /* PRODUCTOS */
-
-
+.navbar bg-light {
+    color: #fae8eb;
+}
 
 /* Puntos de encuentro */
            
