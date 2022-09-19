@@ -16,14 +16,104 @@ h3 a {
   #centrarproducto {
     display: inline; } }
 
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent; }
+
 footer {
   background-color: #0a014f; }
   footer p {
     color: #f6caca; }
 
-.footerimg {
-  height: 50px;
-  width: 50px; }
+.wrapper {
+  display: inline-flex;
+  list-style: none; }
+  .wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+    .wrapper .icon:hover .tooltip {
+      top: -45px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1); }
+    .wrapper .icon:hover span {
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1); }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+    .wrapper .tooltip::before {
+      position: absolute;
+      content: "";
+      height: 8px;
+      width: 8px;
+      background: #ffffff;
+      bottom: -3px;
+      left: 50%;
+      transform: translate(-50%) rotate(45deg);
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .wrapper .facebook:hover {
+    background-color: #1877F2;
+    color: #ffffff; }
+    .wrapper .facebook:hover .tooltip {
+      background-color: #1877F2;
+      color: #ffffff; }
+      .wrapper .facebook:hover .tooltip::before {
+        background-color: #1877F2;
+        color: #ffffff; }
+  .wrapper .twitter:hover {
+    background-color: #1DA1F2;
+    color: #ffffff; }
+    .wrapper .twitter:hover .tooltip {
+      background-color: #1DA1F2;
+      color: #ffffff; }
+      .wrapper .twitter:hover .tooltip::before {
+        background-color: #1DA1F2;
+        color: #ffffff; }
+  .wrapper .instagram:hover {
+    background-color: #E4405F;
+    color: #ffffff; }
+    .wrapper .instagram:hover .tooltip {
+      background-color: #E4405F;
+      color: #ffffff; }
+      .wrapper .instagram:hover .tooltip::before {
+        background-color: #E4405F;
+        color: #ffffff; }
+  .wrapper .whatsapp:hover {
+    background-color: #2fd335;
+    color: #ffffff; }
+    .wrapper .whatsapp:hover .tooltip {
+      background-color: #2fd335;
+      color: #ffffff; }
+      .wrapper .whatsapp:hover .tooltip::before {
+        background-color: #2fd335;
+        color: #ffffff; }
+
+.logoimg {
+  width: 100%; }
 
 main {
   background-color: #f6caca; }
@@ -34,15 +124,18 @@ header {
 #navcolor {
   background-color: #fae8eb;
   color: #fae8eb; }
-  #navcolor a:hover {
-    box-shadow: -4px 3px 37px 10px #EFA5CE; }
 
 .navbar bg-light {
   color: #fae8eb; }
 
+ul li {
+  transition: box-shadow .3s; }
+  ul li:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2); }
+
 .card {
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); }
+  background: #696eff;
+  background: linear-gradient(180deg, #696eff 0%, #f8acff 100%); }
 
 .card-img-top {
   max-width: 100%;

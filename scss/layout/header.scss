@@ -1,18 +1,23 @@
 header {
-	background-color: $color_header;
+	background-color: map-get($colors, headercolor );
 }
 
 #navcolor {
-	background-color: $color_header;
-	color: $color_header;
-	a {
-		&:hover {
-			box-shadow: -4px 3px 37px 10px #EFA5CE;
-		}
-	}
+	background-color: map-get($colors,headercolor );
+	color: map-get($colors ,headercolor );
+	
 }
 .navbar {
 	bg-light {
-		color: $color_header;
+		color:  map-get($colors,headercolor );
+	}
+}
+
+ul {
+	li{
+		transition: box-shadow .3s;
+		&:hover {
+			box-shadow: 0 0 11px rgba(33,33,33,.2); 
+		}
 	}
 }
