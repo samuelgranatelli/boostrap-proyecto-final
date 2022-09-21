@@ -3,7 +3,7 @@
 	color: $color;
 }
 
-
+// Mixins //
 footer {
 	background-color: map-get($colors,footercolor );
 	p {
