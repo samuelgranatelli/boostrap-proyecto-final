@@ -1,5 +1,22 @@
+body {
+	padding-top: 55px;
+}
+
 @media (max-width: 1100px){ 
 	#centrarproducto {
-		display: inline;
+		display: inline-block;
+	} 
+	body {
+		padding-top: 55px;
+	} 
+
+	.sorteos__body {
+			margin-top: 0px;
+	}
+	
+	.sobrenosotros__body {
+		margin-top: 0px;
 	}
 }
+
+
