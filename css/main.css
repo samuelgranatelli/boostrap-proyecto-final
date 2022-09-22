@@ -1,8 +1,9 @@
 h1, h2, h3, h4, h5 {
-  font-family: 'Bangers', cursive; }
+  font-family: 'Bangers', cursive;
+  padding: 7px; }
 
 a, p {
-  font-family: 'Indie Flower', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 .a__estilo {
   text-decoration: none;
@@ -12,18 +13,8 @@ a, p {
 h3 a {
   text-decoration: none; }
 
-body {
-  padding-top: 55px; }
-
-@media (max-width: 1100px) {
-  #centrarproducto {
-    display: inline-block; }
-  body {
-    padding-top: 55px; }
-  .sorteos__body {
-    margin-top: 0px; }
-  .sobrenosotros__body {
-    margin-top: 0px; } }
+span {
+  font-weight: bold; }
 
 *:focus,
 *:active {
@@ -127,6 +118,13 @@ footer {
 main {
   background-color: #f6caca; }
 
+iframe {
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px; }
+
 header {
   background-color: #fae8eb; }
 
@@ -144,7 +142,11 @@ ul li {
 
 .card {
   background: #696eff;
-  background: linear-gradient(180deg, #696eff 0%, #f8acff 100%); }
+  background: linear-gradient(180deg, #696eff 0%, #f8acff 100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .card-img-top {
   max-width: 100%;
@@ -159,3 +161,23 @@ ul li {
   #carouseldiv img {
     height: 100%;
     width: 100%; }
+
+body {
+  padding-top: 55px; }
+
+@media (max-width: 1100px) {
+  #centrarproducto {
+    display: inline-block; }
+  body {
+    padding-top: 55px; }
+  .sorteos__body {
+    margin-top: 0px; }
+  .sobrenosotros__body {
+    margin-top: 0px; }
+  .card {
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  iframe {
+    width: 300px;
+    height: 400px; } }

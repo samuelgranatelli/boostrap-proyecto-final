@@ -6,3 +6,10 @@ main {
 	background-color: map-get($colors , maincolor );
 }
 
+iframe {
+	width: 1200px;
+	height: 700px;
+	justify-content: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
